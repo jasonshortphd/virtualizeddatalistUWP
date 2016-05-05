@@ -92,6 +92,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="..\README.md">
+      <Link>README.md</Link>
+    </None>
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
